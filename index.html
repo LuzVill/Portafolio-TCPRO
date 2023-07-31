@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Luz Villalpando">
+    <meta name="description" content="Portafolio de desarrollo web de Luz Villalpando">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React, Bootstrap">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Titulo -->
+    <title>Luz Villalpando | Desarrollo Web Front-End</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/Icon_plantita.png">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <!-- conexción CSS -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Google Fonts - se pueden cambiar -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,800&family=Shrikhand&family=Tektur:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Swash&family=Prompt:ital,wght@1,800&family=Shrikhand&family=Tektur:wght@500&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+    
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/Icon_plantita.png" width="60" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/Luz Villalpando.jpeg" alt="Foto de Jane Doe">
+        <h1>Hola, soy Luz Villalpando</h1>
+        <!--<h2>Desarrollo sitios web y escribo artículos sobre programación.</h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/hero-inferior.svg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Luz Villalpando</h2>
+        <p class="seccion-texto">Soy una chica de 20 años, actualmente estoy estudiando Medicina Veterinaria y Zootecnia en la UAEMex. Estudie en Tecnolochicas donde aprendí a desarrollar páginas web en el área Front-End con los programas de HTML5, CSS3 y Bootstrap.
+        <br>
+        Mi meta es poder crear una página web dedicada a la divulgación científica de la médicia veterinaria, especialmente en las especies de compañía para dar conocer las diversas enfermedades y orientar a los tutores sobre las acciones que se llevan a cabo en casa, en los aspectos etológicos.
+        </p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p>He realizado dos proyectos de página web, el primero es una página dedicada al espacio y el segundo es un clon del buscador de google. Ambos subidos por medio de Netlify. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-success">HTML</span>
+              <span class="badge text-bg-success">CSS</span>
+              <span class="badge text-bg-success">Bootstrap</span>
+              <span class="badge text-bg-success">Netlify</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Artículos</p>
+            <p>Actualmente solo tengo dos códigos en la plataforma de Github, donde se puede ver como es que realicé mi la página del espacio y el clon de google, sin embargo, espero poder realizar más trabajos a futuro y explicar mi código de una mejor manera.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-success">Escribir</span>
+              <span class="badge text-bg-success">Editar</span>
+              <span class="badge text-bg-success">Github</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Estudiante</p>
+            <p>Fuí estudiante de Tecnolochicas PRO durante el verano del año 2023, donde aprendí a realizar el desarrollo de páginas web responsivas.  </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-success">Tecnolochicas PRO</span>
+              <span class="badge text-bg-success">Desarrollo Web</span>
+              <span class="badge text-bg-success">Python</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/INTERESPACIO.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>INTERESPACIO</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/LuzVill/Espacio" target="_blank" rel="página del espacio">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://inter-espacio-bb7e93.netlify.app/" target="_blank" rel="página de espacio">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/clongoogle.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Clon Google</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/LuzVill/Google-clone" target="_blank" rel="github de clon de google">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://clonde-googlee-b6a2df.netlify.app//" target="_blank" rel="página de clon de google">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/PortafolioTCPRO.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Portafolio</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/LuzVill/Portafolio-TCPRO" target="_blank" rel="Github de Portafolio">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="página PortafolioTCPRO">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes...</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/Jessica.png" alt="Foto de Gino">
+              <p class="testimonio-texto">Luz a demostrado ser una estudiante excepcional, destacando por su dedicación y compromiso con el aprendizaje.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Jessica Sanchez</p>
+                <p class="cargo">Licencia en Pedagogía. Mentora en Tecnolochicas.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/rosalia.jpeg" alt="Foto de Nora">
+              <p class="testimonio-texto">Se puede apreciar en sus trabajos la dedicación que pone en cada uno de ellos, siendo muy característico de su persona</p>
+              <div class="testimonio-info">
+                <p class="cliente">Rosalía Villalpando</p>
+                <p class="cargo">Lic. en Administración de empresas</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/Luis.jpeg" alt="Foto de Leonardo">
+              <p class="testimonio-texto">En cada uno de sus proyectos se ve la creatividad y motivación con la que los realiza, excelente trabajo</p>
+              <div class="testimonio-info">
+                <p class="cliente">Luis Vicente</p>
+                <p class="cargo">Diseñador Gráfico</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame para iniciar tu proyecto de desarrollo web y haré que tu visión se vuelva realidad.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="danileo1408@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/Icon_plantita.png" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Trabajemos juntos y <br>formemos tus sueños.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+      
+        <a href="https://github.com/LuzVill" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/luz-itzel-villalpando-ortega-1a8837285/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/luz_v.o/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="danileo1408@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Luz Villalpando (2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
